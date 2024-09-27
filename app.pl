@@ -5,6 +5,7 @@ use warnings;
 
 sub main {
   print "Hello world!";
+  return 0;
 }
 
-main();
+exit main();
